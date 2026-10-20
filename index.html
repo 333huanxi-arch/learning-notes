@@ -5,6 +5,7 @@
   <title>我的读书笔记</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./vendor/vue.css">
+  <link rel="stylesheet" href="./vendor/sidebar-folder.min.css">
 </head>
 <body>
   <div id="app">加载中…</div>
@@ -13,11 +14,20 @@
       name: '读书笔记',
       repo: '333huanxi-arch/learning-notes',
       loadSidebar: true,
+      // 让所有子目录的 _sidebar.md 请求都映射回根目录的这一个，
+      // 否则进入 books/ 等子页面时侧边栏会加载失败
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       subMaxLevel: 3,
+      // 配合 docsify-sidebar-collapse：默认展开到第 1 级，更深的层级点击后展开
+      sidebarDisplayLevel: 1,
       homepage: 'README.md',
       notFoundPage: 'README.md'
     }
   </script>
   <script src="./vendor/docsify.min.js"></script>
+  <!-- 侧边栏折叠插件，必须放在 docsify.min.js 之后加载 -->
+  <script src="./vendor/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>
