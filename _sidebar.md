@@ -1,10 +1,10 @@
 - 读书笔记
   - [总览](README.md)
   - 书单
-    - [如何阅读一本书](books/example-book/README.md)
+    <!-- - [如何阅读一本书](books/example-book/README.md) -->
     - [UX 设计原则](books/ux/universal-principles-of-ux/README.md)
-  - 每日汇总
-    - [2026-10-20](daily/2026-10-20.md)
-  - 模板
+  <!-- - 每日汇总
+    - [2026-10-20](daily/2026-10-20.md) -->
+  <!-- - 模板
     - [单本书总览模板](templates/book-note.md)
-    - [每日笔记模板](templates/daily-note.md)
+    - [每日笔记模板](templates/daily-note.md) -->
