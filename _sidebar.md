@@ -2,8 +2,9 @@
   - [总览](README.md)
   - 书单
     <!-- - [如何阅读一本书](books/example-book/README.md) -->
-    - [UX 设计原则](books/ux/universal-principles-of-ux/README.md)
-      - [2026-10-20](books/ux/universal-principles-of-ux/notes/2026-10-20.md)
+    - Universal Principles of UX（用户体验通用法则）
+      - [概述](books/ux/universal-principles-of-ux/README.md)
+      - [Part 1](books/ux/universal-principles-of-ux/notes/part1.md)
   <!-- - 每日汇总
     - [2026-10-20](daily/2026-10-20.md) -->
   <!-- - 模板
